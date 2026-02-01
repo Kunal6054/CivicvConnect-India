@@ -12,6 +12,7 @@
 
 **Civic Connect India** is a comprehensive web platform designed to bridge the gap between citizens and local administration. It allows users to report civic issues (like potholes, sanitation, or streetlights) with precise geolocation and provides officials with an analytics dashboard to track resolution progress.
 
+
 Built for performance and accessibility using the latest web standards.
 
 ## ✨ Key Features
