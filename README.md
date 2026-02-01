@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🇮🇳 Civic Connect India
 
-## Project info
+> **Empowering Communities, Enabling Governance.**
+> A modern civic engagement platform built with React, TypeScript, and Shadcn UI.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-## How can I edit this code?
+## 📖 Overview
 
-There are several ways of editing your application.
+**Civic Connect India** is a comprehensive web platform designed to bridge the gap between citizens and local administration. It allows users to report civic issues (like potholes, sanitation, or streetlights) with precise geolocation and provides officials with an analytics dashboard to track resolution progress.
 
-**Use Lovable**
+Built for performance and accessibility using the latest web standards.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+* **📍 Interactive Maps:** View and pin issues on a real-time map. Powered by **Leaflet** & **React-Leaflet**.
+* **📊 Analytics Dashboard:** Visual insights on reported vs. resolved cases using **Recharts**.
+* **📝 Smart Reporting:** Robust forms with validation using **React Hook Form** & **Zod**.
+* **🎨 Modern UI:** Accessible and beautiful components built with **Shadcn UI** & **Radix Primitives**.
+* **⚡ Blazing Fast:** Optimized build and hot-reloading powered by **Vite**.
+* **🔔 Real-time Feedback:** Instant toast notifications using **Sonner**.
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project uses a modern stack focused on developer experience and performance:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Framework:** [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) + [Shadcn UI](https://ui.shadcn.com/)
+* **Maps:** [Leaflet](https://leafletjs.com/)
+* **State & Data:** [TanStack Query](https://tanstack.com/query/latest)
+* **Forms:** [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Ensure you have Node.js installed on your machine.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/your-username/civic-connect-india.git](https://github.com/your-username/civic-connect-india.git)
+    cd civic-connect-india
+    ```
 
-**Edit a file directly in GitHub**
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
 
-**Use GitHub Codespaces**
+4.  **Build for production**
+    ```bash
+    npm run build
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📂 Project Structure
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```text
+src/
+├── components/       # Shadcn UI & Custom components
+├── hooks/           # Custom React hooks (use-toast, etc.)
+├── pages/           # Route pages (Dashboard, Home, Map)
+├── lib/             # Utility functions (utils.ts)
+├── assets/          # Static images
+└── App.tsx          # Main application entry
