@@ -1,77 +1,73 @@
-# 🇮🇳 Civic Connect India
+# Welcome to your Lovable project
 
-> Empowering citizens, Enabling Governance.
+## Project info
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Made in India](https://img.shields.io/badge/Made%20in-India-orange)](https://india.gov.in)
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## 📖 Overview
+## How can I edit this code?
 
-**Civic Connect India** is an open-source platform designed to bridge the communication gap between Indian citizens and local government bodies. 
+There are several ways of editing your application.
 
-In a country with rapid urbanization, efficiently managing civic issues (like road maintenance, waste management, and street lighting) is a massive challenge. This project aims to solve that by providing a transparent, real-time interface for reporting issues and tracking their resolution.
+**Use Lovable**
 
-### 🌟 Key Features
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-* **📍 Geo-Tagging:** Automatically pinpoints the location of reported issues (potholes, garbage dumps, etc.) using GPS.
-* **🗣️ Multi-Language Support:** Interface available in English, Hindi, Tamil, and other regional languages to ensure inclusivity.
-* **📊 Real-Time Tracking:** Citizens can track the status of their complaints from "Reported" to "Resolved."
-* **🤖 AI Categorization:** Uses Machine Learning to automatically classify images (e.g., distinguishing a "water leak" from a "pothole") to route them to the correct department.
-* **📴 Offline Mode:** Allows users in low-connectivity areas to draft reports and sync them when online.
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🛠️ Tech Stack
+**Use your preferred IDE**
 
-* **Frontend:** React Native / Flutter (for Mobile), React.js (for Admin Dashboard)
-* **Backend:** Node.js / Django / FastAPI
-* **Database:** MongoDB / PostgreSQL
-* **Maps:** Mapbox / Google Maps API / OpenStreetMap
-* **AI/ML:** TensorFlow / PyTorch (for image recognition)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 🚀 Getting Started
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Prerequisites
+Follow these steps:
 
-* Node.js (v14 or higher)
-* npm or yarn
-* MongoDB (local or Atlas)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Installation
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-1.  **Clone the repo**
-    ```bash
-    git clone [https://github.com/your-username/civic-connect-india.git](https://github.com/your-username/civic-connect-india.git)
-    ```
-2.  **Install dependencies**
-    ```bash
-    cd civic-connect-india
-    npm install
-    ```
-3.  **Set up Environment Variables**
-    Create a `.env` file in the root directory and add your API keys:
-    ```env
-    DB_CONNECTION_STRING=your_mongo_db_url
-    MAPS_API_KEY=your_map_key
-    ```
-4.  **Run the server**
-    ```bash
-    npm start
-    ```
+# Step 3: Install the necessary dependencies.
+npm i
 
-## 🤝 Contributing
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-We welcome contributions from the Indian open-source community!
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+**Edit a file directly in GitHub**
 
-## 📄 License
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Distributed under the MIT License. See `LICENSE` for more information.
+**Use GitHub Codespaces**
 
-## 📞 Contact
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Project Maintainer - Kunal Nirmalkar- kunalnirmalkar345@gmail.com
-Project Link: [https://github.com/Kunal6054civic-connect-india]https://github.com/Kunal6054
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
